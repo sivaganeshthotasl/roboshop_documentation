@@ -6,7 +6,7 @@
 👉 **The developer has chosen Nginx as the web server, so we will install the Nginx web server.**
 
 **You can list modules by using**
-```dnf module list nginx```
+```bash dnf module list nginx```
 
 
 
