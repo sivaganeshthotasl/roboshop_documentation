@@ -13,10 +13,12 @@ markdown
 
 ```bash
 dnf module disable nginx
-bash
 dnf module enable nginx:1.24 -y
-bash
 dnf install nginx -y
+
+**Start & Enable Nginx Service:-**
+
+
 
 
 
