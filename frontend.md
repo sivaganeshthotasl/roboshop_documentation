@@ -8,13 +8,15 @@
 **You can list modules by using**
 
 ```dnf module list nginx```
-
+markdown
 **Install Nginx:-**
 
 ```bash
 dnf module disable nginx
+bash
 dnf module enable nginx:1.24 -y
-dnf install nginx -y```
+bash
+dnf install nginx -y
 
 
 
