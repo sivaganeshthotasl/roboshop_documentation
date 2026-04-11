@@ -9,6 +9,13 @@
 
 ```dnf module list nginx```
 
+**Install Nginx:-**
+
+```dnf module disable nginx```
+```dnf module enable nginx:1.24 -y```
+```dnf install nginx -y```
+
+
 
 
 
