@@ -11,10 +11,7 @@
 
 **Install Nginx:-**
 
-```bash
-dnf module disable nginx
-dnf module enable nginx:1.24 -y
-dnf install nginx -y
+`` `dnf  install nginx -y` ``
 
 
 
