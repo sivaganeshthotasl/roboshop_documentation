@@ -6,10 +6,10 @@
 👉 The developer has chosen Nginx as the web server, so we will install the Nginx web server.
 
 You can list modules by using:-
-dnf module list nginx
+'''dnf module list nginx'''
 
 **Install Nginx:-**
-dnf module disable nginx            < disable if any old version exist>
-dnf module enable nginx:1.24 -y      < enable new version of nginx>
-dnf install nginx -y
+'''dnf module disable nginx            < disable if any old version exist>
+dnf module enable nginx:1.24 -y        < enable new version of nginx>
+dnf install nginx -y'''
 
