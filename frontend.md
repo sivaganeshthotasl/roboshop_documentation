@@ -7,3 +7,9 @@
 
 You can list modules by using:-
 dnf module list nginx
+
+**Install Nginx:-**
+dnf module disable nginx            < disable if any old version exist>
+dnf module enable nginx:1.24 -y      < enable new version of nginx>
+dnf install nginx -y
+
