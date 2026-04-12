@@ -141,6 +141,13 @@ NOTE: Ensure you replace the localhost with the actual ip address of those compo
 systemctl restart nginx
 ```
 
+**Now access to http://ipaddress:80**
+
+**However we can’t provide this to customers to access.**
+
+**So we need to purchase a domain from godaddy or hostinger or aws.**
+
+**We will purchase a domain from hostinger where we can get cheap and best domains.**
 
 
 
