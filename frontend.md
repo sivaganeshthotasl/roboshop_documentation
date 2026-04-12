@@ -48,6 +48,22 @@ unzip /tmp/frontend.zip
 Try to access the nginx service once more over the browser and ensure you get roboshop content.
 
 **Create Nginx Reverse Proxy Configuration to reach backend services :-**
+
+**Reverse Proxy Means: *Nginx acts as a middleman — it takes user requests, sends them to the right backend service, and returns the response without exposing the backend.**
+
+Without Reverse Proxy Problem: 
+
+Frontend (your website) directly talks to backend servers
+
+Example:
+
+`
+Frontend → backend1:8080
+`
+`
+Frontend → backend2:8080
+`
+
 ```bash
 vim /etc/nginx/nginx.conf
 ```
