@@ -50,6 +50,12 @@ enabled=1
 gpgcheck=0
 ```
 
+✅ Why we are adding this?
+
+By default, the system does not have MongoDB in its repository or may have an older version.
+So, we add this configuration to tell the system:
+👉 “Download MongoDB from the official source.”
+
 **Install MongoDB**
 
 ```
