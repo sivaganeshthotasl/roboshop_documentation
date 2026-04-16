@@ -58,6 +58,7 @@ mkdir /app
 **Download the application code to created app directory and unzip the file from /app folder**
 
 ```
+curl -o /tmp/catalogue.zip https://roboshop-artifacts.s3.amazonaws.com/catalogue-v3.zip 
 cd /app
 unzip /tmp/catalogue.zip
 ```
