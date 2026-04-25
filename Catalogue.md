@@ -47,6 +47,8 @@ The roboshop user is a service (daemon) user used only to run the application. I
 
 The username roboshop is chosen because it matches the project name.
 
+**Note: "We create a system user like roboshop to run applications with limited privileges. Running applications as root is risky because any vulnerability can compromise the entire system. Using a dedicated user follows the principle of least privilege and improves security."**
+
 We store the application in a standard location, as per the organization’s common practice.
 
 **Lets setup an app directory**
