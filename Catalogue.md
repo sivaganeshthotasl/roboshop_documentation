@@ -41,13 +41,79 @@ As discussed in the Linux basics section, applications should always run using a
 
 ```
 useradd --system --home /app --shell /sbin/nologin --comment "Roboshop system user" roboshop
+
+👉 useradd roboshop
+
+Creates a new user named roboshop
+
+👉 --system
+
+--> Creates a system user (not a normal login user)
+
+--> Used for services/applications
+
+--> Usually has no password & limited permissions
+
+👉 --home /app
+
+--> Sets home directory as /app
+
+--> Your application files will live here
+
+👉 --shell /sbin/nologin
+
+--> This user cannot login to the server
+--> No SSH access
+
+✔ Security improvement
+
+👉 --comment "Roboshop system user"
+
+--> Just a description (for humans/admins)
+
 ```
 
-The roboshop user is a service (daemon) user used only to run the application. It is not intended for logging into the server.
+✅ Simple meaning (one line)
 
-The username roboshop is chosen because it matches the project name.
+👉 This command creates a secure, non-login user to run your application
 
 **Note: "We create a system user like roboshop to run applications with limited privileges. Running applications as root is risky because any vulnerability can compromise the entire system. Using a dedicated user follows the principle of least privilege and improves security."**
+
+**🔴Why shouldn't we run application as root?**
+
+Root = full control of the system
+
+**If your app runs as root:**
+
+👉 Any bug or attack = full server compromise
+
+⚠️ Example
+
+**If attacker hacks your app:**
+
+As root → can delete everything:
+
+--> Can access all files
+
+--> Can install malware
+
+--> Can control entire server
+
+**✅ Running as roboshop user**
+
+**Now same attack:**
+
+--> Limited permissions
+
+--> Can access only /app
+
+--> Cannot damage OS
+
+--> Cannot touch other services
+
+✔ Damage is contained
+
+The username roboshop is chosen because it matches the project name.
 
 We store the application in a standard location, as per the organization’s common practice.
 
