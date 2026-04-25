@@ -12,15 +12,15 @@ Redis is very fast because it stores data in RAM (memory) instead of disk.
 
 --> To improve application performance  --> To reduce load on databases  --> To store frequently accessed data (caching)
 
-**👉WVersion Selection**
+**👉Version Selection**
 
 **The Redis version should be selected based on application requirements. We need to confirm the required version with the developer before installation.**
 
-**👉WInstallation Note**
+**👉Installation Note**
 
 By default, Redis 6 is available in the system repositories. If the project requires Redis 7, we need to:
 
-**👉WDisable & Enable redis:7**
+**👉Disable & Enable redis:7**
 
 ```
 dnf module disable redis -y
