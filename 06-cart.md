@@ -17,7 +17,7 @@ dnf module disable nodejs -y
 2️⃣ Enable Node.js 20
 
 ```
-dnf module enable nodejs -y
+dnf module enable nodejs:20 -y
 ```
 
 3️⃣ Install Node.js
