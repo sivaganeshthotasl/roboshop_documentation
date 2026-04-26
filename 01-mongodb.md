@@ -12,7 +12,7 @@ MongoDB stores data like key-value objects (similar to JSON) rather than rows an
 
 | Feature            | SQL (Relational DB)                                  | NoSQL (MongoDB - Document DB)                          |
 |------------------|------------------------------------------------------|--------------------------------------------------------|
-| Data Structure    | Tables with rows and columns                         | Collections with JSON-like documents (BSON)             |
+| Data Structure    | Tables with rows and columns                         | Collections with JSON-like documents (JSON)             |
 | Schema            | Rigid schema (must define columns)                   | Dynamic schema (schema-less, flexible)                  |
 | Query Language    | SQL (Structured Query Language)                      | MQL (MongoDB Query Language - JavaScript style)         |
 | Best Use Cases    | Banking, ERP, CRM, complex relational systems        | Real-time analytics, IoT, content management, apps      |
