@@ -59,7 +59,7 @@ mkdir /app
 **Download the application code into the created application directory**
 
 ```
-curl -L -o /tmp/cart.zip https://roboshop-artifacts.s3.amazonaws.com/user-v3.zip 
+curl -o /tmp/cart.zip https://roboshop-artifacts.s3.amazonaws.com/user-v3.zip 
 cd /app 
 unzip /tmp/cart.zip
 ```
