@@ -1,4 +1,4 @@
-**03-Catalogue**
+### 📦 Catalogue ###
 
 **Catalogue is a microservice responsible for managing and providing the list of items (such as products or categories) that are displayed in the RoboShop application. It fetches this data from a database and serves it to other services or the frontend when requested.**
 
