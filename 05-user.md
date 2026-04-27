@@ -1,4 +1,4 @@
-**User**
+### 👤 User ###
 
 The User Service is a microservice that manages user authentication, including login and registration, in the RobotShop application.
 
