@@ -1,4 +1,4 @@
-**✅MySQL**
+**🐬 MySQL**
 
 MySQL is an open-source relational database used to store and manage application data. It organizes data in tables (rows and columns) and allows us to query data using SQL.
 
