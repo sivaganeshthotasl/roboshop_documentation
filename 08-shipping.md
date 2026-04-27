@@ -119,7 +119,7 @@ dnf install mysql -y
 **Load the Schema. A database schema defines the structure of the database, including tables and their design required for the application.**
 
 ```
-mysql -h <MYSQL-SERVER-IPADDRESS> -uroot -pRoboShop@1 < /app/db/schema.sql
+mysql -h <MYSQL-SERVER-IPADDRESS> -uroot -proboshop@1 < /app/db/schema.sql
 ```
 
 **We need to create an application user in MySQL because it requires password authentication. This user will be used by the Shipping Service to connect to the database.**
