@@ -1,4 +1,4 @@
-**🔹Redis Overview**
+**⚡Redis Overview**
 
 Redis (Remote Dictionary Server) is an open-source, in-memory data store. It is commonly used as a database and cache.
 
