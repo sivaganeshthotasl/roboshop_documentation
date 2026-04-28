@@ -58,13 +58,6 @@ cd /app
 pip3 install -r requirements.txt
 ```
 
-**Download all required application dependencies defined in the configuration file:-**
-
-```
-cd /app 
-pip3 install -r requirements.txt
-```
-
 Create a new systemd service so that systemctl can manage the application. 
 
 As discussed in Linux basics, systemctl provides several advantages for managing services. We are using this standard approach since it is the recommended way in modern operating systems.
