@@ -69,7 +69,7 @@ As discussed in Linux basics, using systemctl to manage services has many advant
 **Set up a systemd service for the Shipping Service**
 
 ```
-/etc/systemd/system/shipping.service
+vi /etc/systemd/system/shipping.service
 ```
 
 ```
