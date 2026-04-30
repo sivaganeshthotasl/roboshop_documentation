@@ -116,7 +116,7 @@ Schemas are usually provided by the development team as part of the application 
 dnf install mysql -y
 ```
 
-**Load the Schema. A database schema defines the structure of the database, including tables and their design required for the application.**
+**“Load the schema means setting up the database structure—like creating tables and defining how data is stored.”**
 
 ```
 mysql -h <MYSQL-SERVER-IPADDRESS> -uroot -proboshop@1 < /app/db/schema.sql
@@ -128,7 +128,7 @@ mysql -h <MYSQL-SERVER-IPADDRESS> -uroot -proboshop@1 < /app/db/schema.sql
 mysql -h <MYSQL-SERVER-IPADDRESS> -uroot -pRoboShop@1 < /app/db/app-user.sql
 ```
 
-**Load master data, which includes information about all countries, their cities, and the distances between those cities.**
+**Loading the schema means preparing the database with required tables and columns before the app starts using it.**
 
 ```
 mysql -h <MYSQL-SERVER-IPADDRESS> -uroot -pRoboShop@1 < /app/db/master-data.sql
