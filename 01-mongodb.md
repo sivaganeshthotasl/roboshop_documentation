@@ -65,7 +65,7 @@ dnf install mongodb-org -y
 **Start & Enable MongoDB Service**
 
 ```
-systemclt enable mongod
+systemctl enable mongod
 systemctl start mongod
 ```
 
