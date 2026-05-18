@@ -257,7 +257,7 @@ show collections
 **Get the items in collection**
 
 ```
-db.products.fine()
+db.products.find()
 ```
 
 
